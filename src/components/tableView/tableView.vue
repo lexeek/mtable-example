@@ -55,6 +55,38 @@
             html: false    // Escapes output if false.
           },
           {
+            label: 'Street',  // Column name
+            field: 'address.street',  // Field name from row
+            // Use dot for nested props
+            // Can be function with row as 1st param
+            numeric: false, // Affects sorting
+            html: false    // Escapes output if false.
+          },
+          {
+            label: 'Suite',  // Column name
+            field: 'address.suite',  // Field name from row
+            // Use dot for nested props
+            // Can be function with row as 1st param
+            numeric: false, // Affects sorting
+            html: false    // Escapes output if false.
+          },
+          {
+            label: 'City',  // Column name
+            field: 'address.city',  // Field name from row
+            // Use dot for nested props
+            // Can be function with row as 1st param
+            numeric: false, // Affects sorting
+            html: false    // Escapes output if false.
+          },
+          {
+            label: 'ZIPCODE',  // Column name
+            field: 'address.zipcode',  // Field name from row
+            // Use dot for nested props
+            // Can be function with row as 1st param
+            numeric: true, // Affects sorting
+            html: false    // Escapes output if false.
+          },
+          {
             label: 'Website',  // Column name
             field: 'website',  // Field name from row
             // Use dot for nested props
